@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_Splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solar_fondo"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".SplashScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageHeader"
+            android:layout_width="216dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginEnd="97dp"
+            app:layout_constraintBottom_toTopOf="@+id/mainTitleSplash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26"
+            app:srcCompat="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/mainTitleSplash"
+            android:layout_width="316dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/sansitaone"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#124695"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/titleSplash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/titleSplash"
+            android:layout_width="310dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/sansitaone"
+            android:gravity="center"
+            android:text="@string/subtitle"
+            android:textAlignment="center"
+            android:textColor="#124695"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.382"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48" />
+
+        <ImageView
+            android:id="@+id/imageFooter"
+            android:layout_width="129dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleSplash"
+            app:layout_constraintVertical_bias="0.274"
+            app:srcCompat="@drawable/panel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

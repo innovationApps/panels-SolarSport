@@ -1,5 +1,6 @@
 package com.example.panels_solar_sport;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,6 +34,14 @@ public class SecondFragment extends Fragment {
                 NavHostFragment.findNavController(SecondFragment.this)
                         .navigate(R.id.action_SecondFragment_to_FirstFragment)
         );
+
+        binding.buttonEnd2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),PrincipalActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

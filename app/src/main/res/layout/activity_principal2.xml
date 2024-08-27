@@ -9,6 +9,21 @@
     tools:context=".PrincipalActivity2">
 
     <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStatic"
+        app:layout_constraintEnd_toStartOf="@+id/imagepages"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitlePage"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
         android:id="@+id/imageLogo"
         android:layout_width="94dp"
         android:layout_height="61dp"
@@ -25,8 +40,8 @@
 
     <TextView
         android:id="@+id/textCategory"
-        android:layout_width="332dp"
-        android:layout_height="40dp"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
         android:layout_marginStart="70dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="70dp"
@@ -37,18 +52,18 @@
         android:textColor="#9B9A9A"
         android:textSize="18sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/textTitlePage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageLogo"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="90dp"
         android:layout_marginBottom="50dp"
         android:text="Página Principal"
@@ -56,6 +71,7 @@
         android:textColor="#000000"
         android:textSize="35sp"
         android:textStyle="bold"
+        android:fontFamily="@font/sansitaone"
         app:layout_constraintBottom_toTopOf="@+id/imagepages"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +94,7 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonCategory"
         app:layout_constraintEnd_toStartOf="@+id/imagepages"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textTitlePage" />
 
     <Button
         android:id="@+id/buttonCategory"
@@ -128,7 +144,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonStatic"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textTitlePage"
         app:srcCompat="@drawable/imagboton" />
 
     <TextView

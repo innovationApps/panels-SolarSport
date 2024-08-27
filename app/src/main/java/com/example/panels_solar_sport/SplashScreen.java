@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class SplashScreen extends AppCompatActivity {
 
-    public static  int loadTime = 8000;
+    public static  int loadTime = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

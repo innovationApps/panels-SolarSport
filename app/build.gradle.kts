@@ -48,16 +48,17 @@ dependencies {
     implementation(libs.firebase.firestore)
     implementation(libs.firebase.database)
     implementation(libs.recyclerview)
+    implementation(libs.firebase.crashlytics.buildtools)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.firebaseAuth)
     implementation(libs.firebaseStore)
     implementation(libs.firebaseStorage)
-    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.github.Philjay:MPAndroidChart:v3.1.0")
-    implementation("androidx.cardview:cardview:1.0.0")
+    implementation(libs.firebase.bom)
+    implementation(libs.mpandroidchart)
+    implementation(libs.cardview)
+    implementation(libs.google.firebase.database)
 
 
 }

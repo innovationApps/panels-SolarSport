@@ -1,12 +1,13 @@
  package com.example.panels_solar_sport;
 
  import android.os.Bundle;
+ import android.view.View;
  import android.widget.Button;
  import android.widget.EditText;
 
  import androidx.appcompat.app.AppCompatActivity;
 
- import org.checkerframework.common.subtyping.qual.Bottom;
+
 
  public class CreateCategoryActivity extends AppCompatActivity {
 
@@ -27,7 +28,18 @@
         life = findViewById(R.id.life);
         button_add = findViewById(R.id.button_add);
 
-       // button_add.setOnClickListener();
+        button_add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String namecategory = name.getText().toString().trim();
+                String locationcategory = location.getText().toString().trim();
+                Integer panelscategory = Integer.parseInt(panels.getText().toString().trim());
+                Double powercategory = Double.parseDouble(power.getText().toString().trim());
+                Double energycategory = Double.parseDouble(energy.getText().toString().trim());
+                Double co2category = Double.parseDouble(co2.getText().toString().trim());
+                Integer lifecategory = Integer.parseInt(life.getText().toString().trim());
+            }
+        });
 
 
     }

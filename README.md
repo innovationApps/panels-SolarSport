@@ -66,3 +66,5 @@ Esta aplicación permite a los usuarios registrar terrazas solares en instalacio
 # Licencia
 La información sobre la licencia específica no se proporciona en la documentación actual. Por favor, revisa los archivos del proyecto para obtener detalles sobre la licencia aplicable.
 
+# Video
+https://youtu.be/31I5MBkbMkM?si=snoUyqu9SYC998pk

@@ -4,7 +4,7 @@ Aplicación de Gestión de Terrazas Solares SolarSport
 Descripción
 Esta aplicación permite a los usuarios registrar terrazas solares en instalaciones deportivas para realizar un seguimiento de la producción y eficiencia energética. Además, proporciona la capacidad de visualizar el consumo energético de cada instalación y recibir recomendaciones para mejorar la eficiencia energética. La aplicación incluye varias vistas clave para una experiencia completa de monitoreo y gestión.
 
-Vistas de la Aplicación:
+# Vistas de la Aplicación:
 1. Pantalla de Inicio
    Descripción: Muestra la pantalla de inicio al abrir la aplicación desde el dispositivo móvil.
    Funcionalidad:
@@ -56,11 +56,11 @@ Vistas de la Aplicación:
 
 
 # Contribuidores
-Oscar Cárdenas
-Michelle Casallas Fino
-Mariana Gómez Betancourt
-Bairon Laverde
-Manuel Vega
+# Oscar Cárdenas
+# Michelle Casallas Fino
+# Mariana Gómez Betancourt
+# Bairon Laverde
+# Manuel Vega
 
 
 # Licencia

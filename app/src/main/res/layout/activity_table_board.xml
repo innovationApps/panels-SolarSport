@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitleTable"
+        android:layout_width="382dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/sansitaone"
+        android:text="Terraza Polideportivo Cayetano Cañizares"
+        android:textAlignment="center"
+        android:textColor="#001CAC"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_margin="70dp">
+
+        <!-- Table Heading -->
+
+        <TableRow
+            android:background="#9B9A9A">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KPI"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/sansitaswashed"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Meta"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2023"
+                android:textAlignment="center"
+                android:fontFamily="@font/sansitaswashed"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2024"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/sansitaswashed"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Capacidad Instalada"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="33.000 MV"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0 MV"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15.000 MV"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Generación"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="120.000 KWh"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0 KWh"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="55.0000 Kwh"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Factor Capacidad"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="80%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0 %"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Tasa adquisición clientes"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="70%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Tasa de retención"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="60%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaone"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="ROI"
+                android:textAlignment="center"
+                android:textColor="#001CAC"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:fontFamily="@font/sansitaswashed"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="40%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansitaswashed"
+                android:textAlignment="center"
+                android:padding="10sp"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
+
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/chart"
+            android:layout_width="120dp"
+            android:layout_height="230dp"
+            android:layout_margin="20dp"/>
+
+
+    </TableLayout>
+
+
+
+</RelativeLayout>

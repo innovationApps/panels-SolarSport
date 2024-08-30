@@ -1,5 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.googleService)
+
 }
 
 android {
@@ -31,6 +33,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -41,7 +44,21 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.activity)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.database)
+    implementation(libs.recyclerview)
+    implementation(libs.firebase.crashlytics.buildtools)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(libs.firebaseAuth)
+    implementation(libs.firebaseStore)
+    implementation(libs.firebaseStorage)
+    implementation(libs.firebase.bom)
+    implementation(libs.mpandroidchart)
+    implementation(libs.cardview)
+    implementation(libs.google.firebase.database)
+
+
 }

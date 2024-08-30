@@ -1,5 +1,5 @@
 # panels-SolarSport
-SolarSports App de seguimiento de terrazas solares instaladas en locaciones deportivas.
+
 Aplicación de Gestión de Terrazas Solares SolarSport
 Descripción
 Esta aplicación permite a los usuarios registrar terrazas solares en instalaciones deportivas para realizar un seguimiento de la producción y eficiencia energética. Además, proporciona la capacidad de visualizar el consumo energético de cada instalación y recibir recomendaciones para mejorar la eficiencia energética. La aplicación incluye varias vistas clave para una experiencia completa de monitoreo y gestión.

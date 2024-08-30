@@ -54,12 +54,15 @@ Vistas de la Aplicación:
    Instalación
    Clona el repositorio:
 
-Contribuidores
+
+# Contribuidores
 Oscar Cárdenas
 Michelle Casallas Fino
 Mariana Gómez Betancourt
 Bairon Laverde
 Manuel Vega
-Licencia
+
+
+# Licencia
 La información sobre la licencia específica no se proporciona en la documentación actual. Por favor, revisa los archivos del proyecto para obtener detalles sobre la licencia aplicable.
 

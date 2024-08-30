@@ -12,6 +12,7 @@ public class CategoriesActivity extends AppCompatActivity {
 
     ImageButton btn_register;
     ImageButton imageButtonHome;
+    ImageButton imageButtonSearch;
 
 
     @Override
@@ -20,6 +21,7 @@ public class CategoriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_categories);
         btn_register = findViewById(R.id.btn_register);
         imageButtonHome = findViewById(R.id.imageButtonHome);
+        imageButtonSearch = findViewById(R.id.imageButtonSearch);
 
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,14 @@ public class CategoriesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(CategoriesActivity.this,PrincipalActivity2.class);
+                startActivity(intent);
+
+            }
+        });
+        imageButtonSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CategoriesActivity.this,Solarterraces.class);
                 startActivity(intent);
 
             }

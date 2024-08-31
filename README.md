@@ -62,7 +62,8 @@ Esta aplicación permite a los usuarios registrar terrazas solares en instalacio
 # Bairon Laverde
 # Manuel Vega
 
-https://github.com/innovationApps/panels-SolarSport/blob/main/Blank%20diagram.jpeg
+![UML class](https://github.com/user-attachments/assets/cc84217c-a817-4a5e-8869-085610b73f0d)
+
 
 
 # Licencia

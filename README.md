@@ -56,14 +56,17 @@ Esta aplicación permite a los usuarios registrar terrazas solares en instalacio
 
 
 # Contribuidores
-# Oscar Cárdenas
-# Michelle Casallas Fino
-# Mariana Gómez Betancourt
-# Bairon Laverde
-# Manuel Vega
+ *Oscar Cárdenas*
+ *Michelle Casallas Fino*
+ *Mariana Gómez Betancourt*
+ *Bairon Laverde*
+ *Manuel Vega*
 
+#Diagrama UML
 ![UML class](https://github.com/user-attachments/assets/cc84217c-a817-4a5e-8869-085610b73f0d)
 
+#Diagrama de flujo de ciclo de vida de la aplicación
+![Blank diagram](https://github.com/user-attachments/assets/8c6ca413-d3b0-4050-9bc7-febc5b219bfb)
 
 
 # Licencia

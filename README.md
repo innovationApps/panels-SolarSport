@@ -74,3 +74,7 @@ La información sobre la licencia específica no se proporciona en la documentac
 
 # Video
 https://youtu.be/31I5MBkbMkM?si=snoUyqu9SYC998pk
+
+# Diseño aplicación
+https://www.figma.com/proto/LNm3gquFjGhkdazOcQV9aY/SolarSport?node-id=0-1&t=HzHM9dyn1DTpwADI-1
+
